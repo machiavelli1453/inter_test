@@ -27,7 +27,6 @@ public class remove_whitespace {
                     }
                     str_arr.add(out);
                     count = i;
-                    out = "";
                 }
             }
             System.out.println(str_arr.size());
