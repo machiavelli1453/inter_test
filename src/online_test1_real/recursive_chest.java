@@ -9,6 +9,7 @@ public class recursive_chest {
         if (M == 0 || N == 0 ){
             return 1;
         }
+
         else {
             return chest_move(M-1,N) + chest_move(M,N-1);
         }
